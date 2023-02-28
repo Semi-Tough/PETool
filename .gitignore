@@ -1,0 +1,10 @@
+﻿.vs/
+.vs
+bin
+obj
+.idea
+TestClient/
+
+TestProtocol/
+
+TestServer/
