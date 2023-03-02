@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCPNet", "IOCPNet\IOCPNet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEMsger", "PEMsger\PEMsger.csproj", "{70D3ABBA-7C9C-40DC-99A5-2225A9EEC1FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEQueue", "PEQueue\PEQueue.csproj", "{7199BB28-43B2-4488-A5C8-6EC3F2117C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEMath", "PEMath\PEMath.csproj", "{05D07BDF-B5F4-47EB-86E3-D41B60E405B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{70D3ABBA-7C9C-40DC-99A5-2225A9EEC1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70D3ABBA-7C9C-40DC-99A5-2225A9EEC1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70D3ABBA-7C9C-40DC-99A5-2225A9EEC1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7199BB28-43B2-4488-A5C8-6EC3F2117C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7199BB28-43B2-4488-A5C8-6EC3F2117C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7199BB28-43B2-4488-A5C8-6EC3F2117C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7199BB28-43B2-4488-A5C8-6EC3F2117C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D07BDF-B5F4-47EB-86E3-D41B60E405B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D07BDF-B5F4-47EB-86E3-D41B60E405B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D07BDF-B5F4-47EB-86E3-D41B60E405B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D07BDF-B5F4-47EB-86E3-D41B60E405B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

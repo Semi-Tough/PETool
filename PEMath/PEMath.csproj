@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>PETool.PEMath</RootNamespace>
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+        <RunPostBuildEvent>Always</RunPostBuildEvent>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DefineConstants>TRACE;UNITY_ENV;</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DefineConstants>TRACE;UNITY_ENV;</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>S:\Unity\2021.3.18f1c1\Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    </Target>
+
+</Project>
